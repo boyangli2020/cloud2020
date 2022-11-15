@@ -1,0 +1,39 @@
+{
+  "name": "cloud-provider-payment",
+  "id": "514d32ab-6ccb-4f79-bbc7-446b6d2e96a2",
+  "address": "localhost",
+  "port": 8004,
+  "sslPort": null,
+  "payload": {
+    "@class": "org.springframework.cloud.zookeeper.discovery.ZookeeperInstance",
+    "id": "application-1",
+    "name": "cloud-provider-payment",
+    "metadata": {}
+  },
+  "registrationTimeUTC": 1667645141688,
+  "serviceType": "DYNAMIC",
+  "uriSpec": {
+    "parts": [
+      {
+        "value": "scheme",
+        "variable": true
+      },
+      {
+        "value": "://",
+        "variable": false
+      },
+      {
+        "value": "address",
+        "variable": true
+      },
+      {
+        "value": ":",
+        "variable": false
+      },
+      {
+        "value": "port",
+        "variable": true
+      }
+    ]
+  }
+}
